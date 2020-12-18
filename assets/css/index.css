@@ -415,6 +415,11 @@ body {
 
 .skillSection {
   padding: 60px 100px;
+  border-top: 1px solid #eee;
+}
+.skillSection .sectionHead,
+.skillSection .sectionLead {
+  color: #50555c;
 }
 
 @media all and (max-width: 750px) {
@@ -478,6 +483,7 @@ body {
   font-size: 24px;
   font-weight: 400;
   font-family: 'Noto Sans JP', sans-serif;
+  color: #50555c;
 }
 
 .skillName>span {
