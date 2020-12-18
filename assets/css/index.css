@@ -475,9 +475,9 @@ body {
     width: 100%;
   }
 
-  .skillItem:nth-child(5) {
+  /* .skillItem:nth-child(5) {
     padding-top: 0;
-  }
+  } */
 }
 
 .skillName {
