@@ -417,6 +417,7 @@ body {
   padding: 60px 100px;
   border-top: 1px solid #eee;
 }
+
 .skillSection .sectionHead,
 .skillSection .sectionLead {
   color: #50555c;
@@ -1057,4 +1058,21 @@ body {
 .job-description {
   font-size: 16px;
   line-height: 1.5;
+}
+
+@media all and (max-width:750px) {
+  .job-career-list {
+    width: 100%;
+    margin: 0;
+    padding-top: 60px;
+  }
+
+  .job-career-list .list-box .enrollment-period,
+  .job-career-list .list-box .company-name {
+    font-size: 20px;
+  }
+
+  .job-description {
+    font-size: 14px;
+  }
 }
