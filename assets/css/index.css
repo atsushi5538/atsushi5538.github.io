@@ -687,6 +687,7 @@ body {
 
 .creativeSection {
   padding: 60px 0;
+  border-top: 1px solid #eee;
 }
 
 .sectionLead {
@@ -759,7 +760,6 @@ body {
 
   .creativeSection {
     padding: 16vw 8vw;
-    border-top: 1px solid #eee;
   }
 }
 
