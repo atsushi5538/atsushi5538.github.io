@@ -491,6 +491,12 @@ body {
   font-size: 14px;
 }
 
+@media all and (max-width:750px) {
+  .skillName>span {
+    display: block;
+  }
+}
+
 .chartCol {
   margin-left: 80px;
   width: calc(100% / 2);
