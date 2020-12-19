@@ -31,11 +31,11 @@ body {
   display: none;
 }
 
-.headNaviBox .pageLink > li {
+.headNaviBox .pageLink>li {
   margin-left: 1em;
 }
 
-.headNaviBox .pageLink > li:first-child {
+.headNaviBox .pageLink>li:first-child {
   margin-left: 0;
 }
 
@@ -77,122 +77,6 @@ body {
   font-size: 32px;
   padding-top: 32px;
   color: #fff;
-}
-
-@media all and (max-width:750px) {
-  body {
-    overflow-x: hidden;
-  }
-
-  body {
-    overflow-x: hidden;
-  }
-
-  .headNaviBox {
-    padding: 6.666666666666667vw 5.333333333333333vw;
-    margin: 0;
-    height: 26.666666666666668vw;
-  }
-
-  .headNaviBox .siteLogo {
-    font-size: 5.333333333333333vw;
-    margin-right: 0;
-  }
-
-  .pageLink {
-    display: none;
-    width: 100%;
-    position: fixed;
-    top: 26.666666666666668vw;
-    left: 0;
-    background: #fff;
-  }
-
-  .pageLink.active {
-    display: block;
-    animation-name: burger-menu;
-    animation-duration: 1.5s;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    transition: all 1.5s ease-in-out 0s;
-  }
-
-  .headNaviBox .pageLink > li {
-    margin: 0;
-  }
-
-  .headNaviBox .pageLink a {
-    color: #3C6BB9;
-    padding: 4vw 0 4vw 8vw;
-    border-top: 1px solid #3C6BB9;
-    display: block;
-  }
-
-  .headNaviBox .pageLink > li:first-child a {
-    border: 0;
-  }
-
-  .spMenuLine {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    background-color: #fff;
-    width: 13.333333333333334vw;
-    height: 13.333333333333334vw;
-    border-radius: 2.6666666666666665vw;
-    position: absolute;
-    top: 6.666666666666667vw;
-    right: 6.666666666666667vw;
-    border-radius: 2.6666666666666665vw;
-  }
-
-  .spMenuLine > span {
-    width: 8vw;
-    height: 1.0666666666666667vw;
-    background-color: #414141;
-    display: inline-block;
-    margin-top: 1.3333333333333333vw;
-  }
-
-  .spMenuLine > span:first-child {
-    margin-top: 0;
-  }
-
-  .mainSection > .sectionInr {
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .mainSection {
-    padding: 0 42px;
-    height: 189.6vw;
-    background-position: center right;
-    background-image: url(../img/main_head_bg_sp.jpg);
-  }
-
-  .mainSection .mainTitle {
-    font-size: 8.533333333333333vw;
-    line-height: 1.5;
-  }
-
-  .mainSection .leadTxt {
-    font-size: 4.266666666666667vw;
-    padding-top: 10px;
-  }
-}
-
-@media all and (max-width: 750px) {
-  .sectionHead {
-    font-size: 8.533333333333333vw;
-  }
 }
 
 .sectionHead {
@@ -237,7 +121,7 @@ body {
   font-size: 36px;
 }
 
-.profileText .name > .engName {
+.profileText .name>.engName {
   font-size: 24px;
   display: block;
   padding-top: 10px;
@@ -255,13 +139,13 @@ body {
   line-height: 1.5;
 }
 
-.detailList > li {
+.detailList>li {
   position: relative;
   padding-left: 1em;
   line-height: 1.7;
 }
 
-.detailList > li::before {
+.detailList>li::before {
   content: "・";
   display: block;
   position: absolute;
@@ -270,50 +154,6 @@ body {
   transform: translateY(-50%);
 }
 
-@media all and (max-width: 750px) {
-  .aboutSection {
-    padding: 30px;
-  }
-
-  .aboutSection .profileBox {
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .profileText {
-    width: 100%;
-  }
-
-  .aboutSection .profilePict {
-    margin-right: 0;
-    width: 53.333333333333336vw;
-  }
-
-  .profileText .name {
-    text-align: center;
-    font-size: 30px;
-    padding-top: 45px;
-  }
-
-  .profileText .name > .engName {
-    font-size: 20px;
-    padding-top: 10px;
-  }
-
-  .detailList > li {
-    font-size: 12px;
-  }
-}
-
-/* .featuresSection {
-  background-color: #3c6bb9;
-  padding: 60px;
-}
-.featuresSection .sectionHead {
-  color: #fff;
-} */
 .featuresSection .sectionCol {
   max-width: 1160px;
   margin: 0 auto;
@@ -334,32 +174,10 @@ body {
   margin-left: 0;
 }
 
-@media all and (max-width: 750px) {
-  .featuresSection .sectionCol {
-    width: 100%;
-    flex-wrap: wrap;
-  }
-
-  .featuresSection .sectionCol .clm {
-    width: 100%;
-    margin: 60px 0 0 0;
-  }
-
-  .featuresSection .sectionCol .clm:first-child {
-    margin-top: 0;
-  }
-}
-
 .featurePict {
   width: 150px;
   margin: 0 auto;
   text-align: center;
-}
-
-@media all and (max-width:749px) {
-  .featurePict {
-    width: 40vw;
-  }
 }
 
 .featurePict img {
@@ -390,12 +208,6 @@ body {
   color: #50555c;
 }
 
-@media all and (max-width: 750px) {
-  .skillSection {
-    padding: 30px;
-  }
-}
-
 .skillChartClm {
   max-width: 950px;
   padding-top: 40px;
@@ -405,23 +217,7 @@ body {
   justify-content: space-between;
 }
 
-@media all and (max-width: 750px) {
-  .skillChartClm {
-    width: 100%;
-    margin: 0;
-    flex-direction: column;
-  }
-
-  .chartCol {
-    padding-top: 40px;
-  }
-
-  .chartCol:first-child {
-    padding-top: 0;
-  }
-}
-
-.skillChartClm > dl {
+.skillChartClm>dl {
   display: flex;
   justify-content: space-around;
   flex-flow: column wrap;
@@ -436,13 +232,6 @@ body {
   padding-top: 0;
 }
 
-@media all and (max-width: 750px) {
-  .skillItem {
-    padding-top: 40px;
-    width: 100%;
-  }
-}
-
 .skillName {
   font-size: 24px;
   font-weight: 400;
@@ -450,7 +239,7 @@ body {
   color: #50555c;
 }
 
-.skillName > span {
+.skillName>span {
   font-size: 14px;
 }
 
@@ -612,7 +401,7 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
 }
 
-.careerSection .sectionCol > .clm {
+.careerSection .sectionCol>.clm {
   width: 25%;
   width: 250px;
   flex-shrink: 0;
@@ -808,7 +597,7 @@ body {
   line-height: 1.5;
 }
 
-.modalBoxDetail > ul {
+.modalBoxDetail>ul {
   padding-top: 55px;
 }
 
@@ -868,7 +657,197 @@ body {
 }
 
 @media all and (max-width:750px) {
-  .skillName > span {
+  body {
+    overflow-x: hidden;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .headNaviBox {
+    padding: 6.666666666666667vw 5.333333333333333vw;
+    margin: 0;
+    height: 26.666666666666668vw;
+  }
+
+  .headNaviBox .siteLogo {
+    font-size: 5.333333333333333vw;
+    margin-right: 0;
+  }
+
+  .pageLink {
+    display: none;
+    width: 100%;
+    position: fixed;
+    top: 26.666666666666668vw;
+    left: 0;
+    background: #fff;
+  }
+
+  .pageLink.active {
+    display: block;
+    animation-name: burger-menu;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transition: all 1.5s ease-in-out 0s;
+  }
+
+  .headNaviBox .pageLink>li {
+    margin: 0;
+  }
+
+  .headNaviBox .pageLink a {
+    color: #3C6BB9;
+    padding: 4vw 0 4vw 8vw;
+    border-top: 1px solid #3C6BB9;
+    display: block;
+  }
+
+  .headNaviBox .pageLink>li:first-child a {
+    border: 0;
+  }
+
+  .spMenuLine {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    width: 13.333333333333334vw;
+    height: 13.333333333333334vw;
+    border-radius: 2.6666666666666665vw;
+    position: absolute;
+    top: 6.666666666666667vw;
+    right: 6.666666666666667vw;
+    border-radius: 2.6666666666666665vw;
+  }
+
+  .spMenuLine>span {
+    width: 8vw;
+    height: 1.0666666666666667vw;
+    background-color: #414141;
+    display: inline-block;
+    margin-top: 1.3333333333333333vw;
+  }
+
+  .spMenuLine>span:first-child {
+    margin-top: 0;
+  }
+
+  .mainSection>.sectionInr {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .mainSection {
+    padding: 0 42px;
+    height: 189.6vw;
+    background-position: center right;
+    background-image: url(../img/main_head_bg_sp.jpg);
+  }
+
+  .mainSection .mainTitle {
+    font-size: 8.533333333333333vw;
+    line-height: 1.5;
+  }
+
+  .mainSection .leadTxt {
+    font-size: 4.266666666666667vw;
+    padding-top: 10px;
+  }
+}
+
+@media all and (max-width:750px) {
+  .sectionHead {
+    font-size: 8.533333333333333vw;
+  }
+
+  .featuresSection .sectionCol {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .featuresSection .sectionCol .clm {
+    width: 100%;
+    margin: 60px 0 0 0;
+  }
+
+  .featuresSection .sectionCol .clm:first-child {
+    margin-top: 0;
+  }
+
+  .featurePict {
+    width: 40vw;
+  }
+
+  .aboutSection {
+    padding: 30px;
+  }
+
+  .aboutSection .profileBox {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .profileText {
+    width: 100%;
+  }
+
+  .aboutSection .profilePict {
+    margin-right: 0;
+    width: 53.333333333333336vw;
+  }
+
+  .profileText .name {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 45px;
+  }
+
+  .profileText .name>.engName {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+
+  .detailList>li {
+    font-size: 12px;
+  }
+
+  .skillSection {
+    padding: 30px;
+  }
+
+  .skillChartClm {
+    width: 100%;
+    margin: 0;
+    flex-direction: column;
+  }
+
+  .chartCol {
+    padding-top: 40px;
+  }
+
+  .chartCol:first-child {
+    padding-top: 0;
+  }
+
+  .skillItem {
+    padding-top: 40px;
+    width: 100%;
+  }
+
+  .skillName>span {
     display: block;
   }
 
@@ -895,13 +874,13 @@ body {
     flex-direction: column;
   }
 
-  .careerSection .sectionCol > .clm {
+  .careerSection .sectionCol>.clm {
     width: 100%;
     margin: 40px 0 0 0;
     max-width: 100%;
   }
 
-  .careerSection .sectionCol > .clm:first-child {
+  .careerSection .sectionCol>.clm:first-child {
     margin: 0;
   }
 
@@ -989,7 +968,7 @@ body {
     font-size: 3.2vw;
   }
 
-  .modalBoxDetail > ul {
+  .modalBoxDetail>ul {
     padding-top: 8vw;
   }
 
