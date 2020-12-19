@@ -239,7 +239,7 @@ body {
 
 @media all and (max-width: 750px) {
   .aboutSection {
-    padding: 16vw;
+    padding: 30px;
   }
 }
 
@@ -425,7 +425,7 @@ body {
 
 @media all and (max-width: 750px) {
   .skillSection {
-    padding: 60px;
+    padding: 30px;
   }
 }
 
@@ -765,7 +765,7 @@ body {
   }
 
   .creativeSection {
-    padding: 16vw 8vw;
+    padding: 30px;
   }
 }
 
@@ -849,7 +849,7 @@ body {
 
 @media all and (max-width:750px) {
   .contactSection {
-    padding: 16vw 8vw;
+    padding: 30px;
   }
 
   .contactSection .sectionInr {
@@ -1069,6 +1069,10 @@ body {
 }
 
 @media all and (max-width:750px) {
+  .featuresSection {
+    padding: 30px;
+  }
+
   .job-career-list {
     width: 100%;
     margin: 0;
