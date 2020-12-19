@@ -759,22 +759,24 @@ body {
 
   .creativeSection {
     padding: 16vw 8vw;
+    border-top: 1px solid #eee;
   }
+}
 
-  .creativeSection .sectionCol {
-    width: 100%;
-    flex-direction: column;
-    padding-top: 16vw;
-  }
+.creativeSection .sectionCol {
+  width: 100%;
+  flex-direction: column;
+  padding-top: 16vw;
+}
 
-  .creativeSection .sectionCol .clm {
-    width: 100%;
-    margin: 16vw 0 0 0;
-  }
+.creativeSection .sectionCol .clm {
+  width: 100%;
+  margin: 16vw 0 0 0;
+}
 
-  .creativeSection .sectionCol .clm:nth-child(2) {
-    margin-top: 16vw;
-  }
+.creativeSection .sectionCol .clm:nth-child(2) {
+  margin-top: 16vw;
+}
 }
 
 .contactSection {
