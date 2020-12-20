@@ -25,20 +25,26 @@ for (let modalpict = 0; modalpict < js_modalBtn.length; modalpict++){
   console.log(js_modalBtn);
 }
 
-const modalBtn01 = document.getElementById("modalBtn01");
+// const modalBtn01 = document.getElementById("modalBtn01");
 const modalWrap01 = document.getElementById("modal01");
 const coloseBtn = document.getElementById("coloseBtn");
 const wrapper = document.getElementById("wrapper");
 const modalAnime01 = document.getElementById("modalAnime01");
 
 
-function onClick01() {
+document.getElementById('modalBtn01').onclick = function() {
   wrapper.classList.toggle("fixed");
   modalWrap01.classList.toggle("active");
-  modalAnime01.classList.toggle("active");
-}
-modalBtn01.addEventListener("click", onClick01, false);
-modalWrap01.addEventListener("click", onClick01, false);
+  modalAnime01.classList.toggle("active");  
+};
+
+// function onClick01() {
+//   wrapper.classList.toggle("fixed");
+//   modalWrap01.classList.toggle("active");
+//   modalAnime01.classList.toggle("active");
+// }
+// modalBtn01.addEventListener("click", onClick01, false);
+// modalWrap01.addEventListener("click", onClick01, false);
 
 
 
