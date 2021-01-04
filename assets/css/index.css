@@ -564,12 +564,12 @@ body {
   background-color: #fff;
   border-radius: 30px;
   width: 1080px;
-  padding: 80px 100px;
+  padding: 50px;
   transition: all 1s ease-in-out 3s;
   opacity: 0;
 }
 
-.modalWrap .modalBox.active {
+.modalWrap.active .modalBox {
   animation-name: modal-anime;
   animation-duration: 1.5s;
   animation-delay: 0s;
@@ -583,18 +583,24 @@ body {
 }
 
 .modalBoxHeader {
-  font-size: 40px;
+  font-size: 23px;
   font-weight: normal;
-  padding-bottom: 5px;
-  border-bottom: 1px solid #707070;
+  /* padding-bottom: 5px; */
+  /* border-bottom: 1px solid #707070; */
   line-height: 1;
 }
 
 .modalBoxDetail {
   padding-top: 35px;
-  font-size: 24px;
+  font-size: 16px;
   color: #414141;
   line-height: 1.5;
+}
+.modalBoxDetail > p{
+  margin-top: 1em;
+}
+.modalBoxDetail > p:first-child{
+  margin-top: 0;
 }
 
 .modalBoxDetail>ul {
@@ -603,8 +609,8 @@ body {
 
 #coloseBtn {
   position: absolute;
-  top: 40px;
-  right: 40px;
+  top: 20px;
+  right: 50px;
 }
 
 #coloseBtn button {
