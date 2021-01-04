@@ -454,6 +454,7 @@ body {
 .creativeSection .sectionCol .clm {
   width: 500px;
   margin-top: 60px;
+  border: 1px solid #ccc;
 }
 
 .creativeSection .sectionCol .clm a {
@@ -587,7 +588,7 @@ body {
   font-weight: normal;
   /* padding-bottom: 5px; */
   /* border-bottom: 1px solid #707070; */
-  line-height: 1;
+  line-height: 1.5;
 }
 
 .modalBoxDetail {
@@ -980,7 +981,7 @@ body {
 
   #coloseBtn {
     position: absolute;
-    top: 5.333333333333333vw;
+    top: 2.667vw;
     right: 5.333333333333333vw;
   }
 
