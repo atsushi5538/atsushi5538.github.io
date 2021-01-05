@@ -32,3 +32,6 @@ $('a[href^="#"]').click(function() {
   return false;
 });
 
+$(function() {
+  console.log('Hello World!');
+});
