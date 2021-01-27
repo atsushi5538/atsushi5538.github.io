@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+
+<body>
+
+
+<style>
+.origamiWrap {
+border: 1px solid #ccc;
+border-radius: 10px;
+position: relative;
+z-index: 6;
+width: 680px;
+margin: 70px auto 0;
+position: relative;
+z-index: 6;
+padding: 0;
+font-size: 1.4rem;
+overflow: hidden;
+display: flex;
+align-items: center;
+}
+.origamiWrap::after{
+display: block;
+content: "\e615";
+width: 1em;
+position: absolute;
+right: 0.5em;
+top: 50%;
+transform: translate(0,-50%);
+font: bold 2.5em/1 icons;
+transition: none;
+color: #CFCFCF;
+}
+.wrapInr {
+display: flex;
+width: 100%;
+align-items: center;
+text-decoration: none;
+}
+.textCol{
+padding-left: 50px;
+font-size: 20px;
+}
+@media all and (max-width:599px){
+.origamiWrap{
+width: auto;
+margin: 1.5em 10vw 0;
+}
+.origamiWrap::after{
+font-size:1.5em;
+right:0;
+}
+.wrapPict{
+width: 140px;
+flex-shrink: 0;
+}
+.wrapPict > img{
+width: 100%;
+height: auto;
+}
+.textCol{
+font-size: 1.0rem;
+padding: 0 20px 0 10px;
+line-height: 1.2;
+}
+}
+@media all and (max-width:375px){
+.wrapPict{
+width: 95px;
+}
+}
+</style>
+<section class="origamiWrap">
+<a href="#" class="wrapInr">
+<div class="wrapPict"><img src=" images/about_details_image.jpg" alt="" width="280" height="187"></div>
+<div class="textCol"><p>おうちでもチャレンジ！</p></div>
+</a>
+</section>
+
+</body>
+
+</html>
