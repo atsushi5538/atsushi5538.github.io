@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+<body>
+
+<script>
+// for文の公式
+// for文を使う時は処理をする回数が大方決まってる時に使用する。
+
+//   const count = 1;
+//   for (let i = 1; i <= 10; i++) {
+//     console.log(i);
+//   }
+//   console.log(count);
+
+// // while文の公式
+//   let num = 100000000;
+//   let cnt = 0;
+//   while (num % 2 == 0) {
+//     //   console.log(num);
+//       num = num / 2;
+//       console.log(num);
+//       cnt ++;
+//   }
+//   console.log(cnt);
+//   document.write();
+
+// let num = 1;
+// let cnt = 0;
+// while (num < 10000) {
+//     console.log(num);
+//     num = num * 2;
+//     cnt ++ ;
+// }
+// document.write("2をかけ続けると10000を超えるのは" + cnt + "回で、<br>その結果は" + num);
+
+let num = 15;
+for (let i = 1; i <= num; i++) {
+    if (i % 3 === 0 && i % 5 === 0){
+        console.log("Fizz Buzz");
+    } else if (i % 3 === 0) {
+        console.log("Fizz");
+    } else if (i % 5 === 0) {
+        console.log("Buzz");
+    } else {
+        console.log(i);
+    }
+}
+if (num ){
+
+} else {
+
+}
+</script>
+</body>
+</html>
