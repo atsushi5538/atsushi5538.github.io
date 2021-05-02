@@ -39,16 +39,31 @@
 // }
 // document.write("2をかけ続けると10000を超えるのは" + cnt + "回で、<br>その結果は" + num);
 
+// let N = 15;
+// if (N % 3 == 0) {
+//     document.write('Fizz<br>');
+// }
+// if (N % 3 == 0 && N % 5 == 0) {
+//     document.write('Fizz Buzz<br>');
+// }
+// let n = 15;
+// if (n % 3 == 0) {
+//     document.write('Fizz<br>');
+// }
+// else if (n % 3 == 0 && n % 5 == 0) {
+//     document.write('Fizz Buzz<br>');
+// }
+
 let num = 15;
 for (let i = 1; i <= num; i++) {
     if (i % 3 === 0 && i % 5 === 0){
-        console.log("Fizz Buzz");
-    } else if (i % 3 === 0) {
-        console.log("Fizz");
+        document.write("Fizz Buzz<br>");
     } else if (i % 5 === 0) {
-        console.log("Buzz");
+        document.write("Buzz<br>");
+    } else if (i % 3 === 0) {
+        document.write("Fizz<br>");
     } else {
-        console.log(i);
+        document.write(i + "<br>");
     }
 }
 </script>
