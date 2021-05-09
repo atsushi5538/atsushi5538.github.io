@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Day 5 イベント</title>
+</head>
+<body>
+
+<form>
+<textarea id="mTextarea" cols="40" rows="4"></textarea>
+</form>
+<button id="submitBtn">投稿</button>
+
+<p> <span id="outPutText"></span></p>
+
+<script>
+const btn = document.getElementById('submitBtn');
+
+function button() {
+    // alert('Click');
+    document.createElement('p');
+}
+btn.addEventListener('click', button);
+
+
+
+function twitter() {
+    const text = document.getElementById('mTextarea').value;
+    // document.getElementById('outPutText').textContent = text;
+    document.createElement('p').textContent = text;
+}
+
+// 総合演習答え
+// const textarea = document.getElementById('“mTextarea”');
+// const btn = document.getElementById('submitBtn');
+// function postText(){
+//     let text = textarea.value;
+//     let createTextNode = document.createTextNode(text);
+//     let textElement = document.createElement('p');
+//     textElement.appendChild(createTextNode);
+//     document.body.appendChild(textElement);
+// }
+// btn.addEventListener('click', postText);
+
+// function createHtml() {
+//     const htmlElement = document.createElement('p');
+// }
+// btn.addEventListener('click', twitter);
+// btn.addEventListener('click', createHtml);
+
+
+// const btn = document.getElementById('btn');
+
+// function cgButtonColor() {
+//     btn.style.color = 'red';
+// }
+// function cgButtonBgColor() {
+//     btn.style.backgroundColor = 'pink';
+// }
+
+// btn.onclick = cgButtonColor;
+
+// btn.addEventListener('click', cgButtonColor);
+// btn.addEventListener('click', cgButtonBgColor);
+</script>
+</body>
+</html>
